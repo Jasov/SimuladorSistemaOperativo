@@ -2,10 +2,10 @@
 #!/bin/bash
 
 # Directorio donde se encuentran los archivos .java
-DIRECTORIO="/home/joel/Escritorio/img"
+DIRECTORIO=""
 
 
-javac -cp "$DIRECTORIO" "$DIRECTORIO"/Escritorio.java "$DIRECTORIO"/CasaPanel.java "$DIRECTORIO"/Buscador.java
+javac -cp "$DIRECTORIO" "$DIRECTORIO"/Escritorio.java "$DIRECTORIO"/CasaPanel.java "$DIRECTORIO"/Buscador.java  "$DIRECTORIO"/Terminaal.java 
 
 
 if [ $? -eq 0 ]; then
